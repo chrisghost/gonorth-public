@@ -1,0 +1,80 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  border: 1px black solid;
+  float: right;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+.button.buy-building {
+}
+
+.icon {
+  background: url('../images/icons.png');
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+}
+
+.icon-wrapper {
+  line-height: 32px;
+}
+
+.icon.wood {
+  background-position: 0px -544px;
+}
+
+.icon.planks {
+  background-position: -352px -608px;
+}
+
+.icon.food {
+  background-position: 0px -448px;
+}
+
+.icon.consume {
+  background-position: -32px -64px;
+}
+
+.icon.produce {
+  background-position: 0px -64px;
+}
